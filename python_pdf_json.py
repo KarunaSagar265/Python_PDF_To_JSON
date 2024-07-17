@@ -18,7 +18,7 @@ class PDFModel(BaseModel):
     file_name: str
     pages: List[PageModel]
 
-def extract_text_and_images(pdf_path: str, image_dir: str) -> PDFModel:
+def extract_text_and_images(pdf_path, image_dir):
     # Create the image directory if it does not exist
     if not os.path.exists(image_dir):
         os.makedirs(image_dir)
@@ -69,4 +69,4 @@ pdf_json_with_spaces = pdf_json.replace('},', '},\n')
 with open('output.json', 'w') as f:
     f.write(pdf_json_with_spaces)
 
-print("PDF data has been successfully converted to JSON with image paths and saved as 'output.json'.")
+print("PDF data has been converted into json format.")
