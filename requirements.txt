@@ -1,6 +1,5 @@
 pip install PyMuPDf
 pip install json
-pip install pillow
-pip install pedantic
-pip install io
-pip install base64
+pip install typing
+pip install pydantic
+pip install os
