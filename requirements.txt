@@ -1,2 +1,6 @@
-pip install PuMuPDf
+pip install PyMuPDf
 pip install json
+pip install pillow
+pip install pedantic
+pip install io
+pip install base64
