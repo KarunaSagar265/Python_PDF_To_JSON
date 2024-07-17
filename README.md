@@ -6,3 +6,4 @@ To install json: pip install json
 
 PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.
 
+The program extracts text and image data from the mode
