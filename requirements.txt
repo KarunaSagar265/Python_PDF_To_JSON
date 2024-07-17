@@ -1,0 +1,2 @@
+pip install PuMuPDf
+pip install json
